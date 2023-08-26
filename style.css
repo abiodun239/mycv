@@ -1,0 +1,33 @@
+html{
+font-size: 100%;   
+box-sizing: border-box; 
+}
+body{
+  margin: 0;  
+  padding: 0;
+  font-family:"public-sans", sans-serif ;
+  line-height: 1.3;
+}
+
+div{
+    width: 80%;
+    margin-left: 115px;
+    border:  1px solid black;
+    padding: 15px;
+}
+.info{
+    text-align: center;
+    
+}
+hr{
+    margin-top:-20px
+}
+
+ul li{
+    list-style-type: square;
+}
+@media (max-width:662px) {
+    div{
+        margin: 38px;
+    }
+}
